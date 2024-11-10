@@ -39,7 +39,7 @@ def index():
                 "code": 200,
                 "message": "Success fetching the API",
             },
-            "data": {"endpoint": f"{request.host_url}/generate_image"},
+            "data": {"endpoint": f"{request.host_url}generate_image"},
         }
     ), 200
 
